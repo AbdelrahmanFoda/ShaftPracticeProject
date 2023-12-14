@@ -1,0 +1,124 @@
+[INFO ] 2023-12-14 13:17:09.096 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231026[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-14 13:17:09.734 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-12-14 13:17:09.734 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-12-14 13:17:09.821 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-12-14 13:17:10.128 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-12-14 13:17:10.142 [main] ReportManager - TestNG run detected...
+[INFO ] 2023-12-14 13:17:10.293 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-14 13:17:10.295 [main] ReportManager - Setting "screenshotParams_screenshotType" property with "Regular".
+[INFO ] 2023-12-14 13:17:10.308 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: E:\ShaftPracticeHeadway\tar..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2023-12-14 13:17:10.309 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-12-14 13:17:10.309 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2023-12-14 13:17:13.487 [main] ReportManager - Dec 14, 2023 1:17:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-12-14 13:17:13.487 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+[INFO ] 2023-12-14 13:17:13.494 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[ERROR] 2023-12-14 13:17:13.496 [main] AllureLifecycle - Could not start step: no test case running
+[ERROR] 2023-12-14 13:17:13.503 [main] AllureLifecycle - Could not stop step: step with uuid 24a27cf2-b7b6-4fc0-a1a6-48b0088fc1d4 not found
+[INFO ] 2023-12-14 13:17:13.544 [main] Utils - [TestNG] Running:
+  C:\Users\abdelrahman.foda\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-12-14 13:17:13.566 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-14 13:17:13.579 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-12-14 13:17:13.583 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-12-14 13:17:13.668 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of open url configuration method                                               
+                                                          'registerUserFeature.openUrl'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-14 13:17:13.671 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-14 13:17:13.673 [main] ReportManager - Setting "screenshotParams_screenshotType" property with "Regular".
+[INFO ] 2023-12-14 13:17:13.675 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: E:\ShaftPracticeHeadway\tar..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2023-12-14 13:17:13.676 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-12-14 13:17:13.676 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2023-12-14 13:17:14.891 [main] ReportManager - Dec 14, 2023 1:17:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-12-14 13:17:14.891 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+[INFO ] 2023-12-14 13:17:14.892 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-12-14 13:17:15.288 [main] ReportManager - Target URL: "https://automationexercise.com/"
+[INFO ] 2023-12-14 13:17:15.319 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-14 13:17:21.398 [main] ReportManager - File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20231214-131721", Target File: "\1702552641029_openUrl.gif"".
+[INFO ] 2023-12-14 13:17:23.055 [main] ReportManager - Navigate to url "https://automationexercise.com/".
+[INFO ] 2023-12-14 13:17:23.238 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                  Test Method: 'registerUserFeature.register1'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-14 13:17:24.101 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-14 13:17:24.163 [main] ReportManager - Click " Signup / Login".
+[INFO ] 2023-12-14 13:17:26.238 [main] ReportManager - Type "Abdddgepaahman" into "Name".
+[INFO ] 2023-12-14 13:17:26.750 [main] ReportManager - Type "Foda1702552643247@gmail.com" into "Email Address".
+[INFO ] 2023-12-14 13:17:27.270 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-14 13:17:27.308 [main] ReportManager - Click "Signup".
+[INFO ] 2023-12-14 13:17:28.945 [main] ReportManager - Get text "ENTER ACCOUNT INFORMATION" from "By.xpath: //b[contains(text(),'Enter Account Information')]".
+[INFO ] 2023-12-14 13:17:28.946 [main] ReportManager - Expected "ENTER ACCOUNT INFORMATION", and actual "ENTER ACCOUNT INFORMATION"
+[INFO ] 2023-12-14 13:17:29.890 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'ENTER ACCOUNT INFORMATION' for the 'text' attribute, element locator 'By.xpath: //b[contains(text(),'Enter Account Information')]'" and Actual "ENTER ACCOUNT INFORMATION". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-14 13:17:29.934 [main] ReportManager - Successfully created attachment 'Screenshot - 1702552649629_register1_ValidateElementAttribute_passed'
+[INFO ] 2023-12-14 13:17:29.937 [main] ReportManager - Successfully created attachment 'ValidateElementAttribute - page snapshot'
+[INFO ] 2023-12-14 13:17:30.510 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-14 13:17:30.552 [main] ReportManager - Click "Mr.".
+[INFO ] 2023-12-14 13:17:31.182 [main] ReportManager - Type "55454454545" into "Password *".
+[INFO ] 2023-12-14 13:17:31.422 [main] ReportManager - Setting "skipTestsWithLinkedIssues" property with "true".
+[INFO ] 2023-12-14 13:17:32.661 [main] ReportManager - Select "19" from "By.id: days".
+[INFO ] 2023-12-14 13:17:32.731 [main] ReportManager - Setting "skipTestsWithLinkedIssues" property with "true".
+[INFO ] 2023-12-14 13:17:33.527 [main] ReportManager - Select "March" from "By.id: months".
+[INFO ] 2023-12-14 13:17:33.609 [main] ReportManager - Setting "skipTestsWithLinkedIssues" property with "true".
+[INFO ] 2023-12-14 13:17:34.294 [main] ReportManager - Select "2020" from "By.id: years".
+[INFO ] 2023-12-14 13:17:34.831 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-14 13:17:34.880 [main] ReportManager - Click "Sign up for our newsletter!".
+[INFO ] 2023-12-14 13:17:35.451 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-14 13:17:35.500 [main] ReportManager - Click "Receive special offers from our partners!".
+[INFO ] 2023-12-14 13:17:35.993 [main] ReportManager - Type "Abdelrahman" into "First name *".
+[INFO ] 2023-12-14 13:17:36.550 [main] ReportManager - Type "Foda" into "Last name *".
+[INFO ] 2023-12-14 13:17:37.012 [main] ReportManager - Type "GizaSystems" into "Company".
+[INFO ] 2023-12-14 13:17:37.553 [main] ReportManager - Type "Cairo" into "Address * (Street address, P.O. Box, Company name, etc.)".
+[INFO ] 2023-12-14 13:17:38.048 [main] ReportManager - Type "Cairo" into "Address 2".
+[INFO ] 2023-12-14 13:17:38.600 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-14 13:17:38.657 [main] ReportManager - Click "Country *".
+[INFO ] 2023-12-14 13:17:39.145 [main] ReportManager - Type "www" into "State *".
+[INFO ] 2023-12-14 13:17:39.605 [main] ReportManager - Type "nasrcity" into "City * Zipcode *".
+[INFO ] 2023-12-14 13:17:40.037 [main] ReportManager - Type "818" into "By.id: zipcode".
+[INFO ] 2023-12-14 13:17:40.464 [main] ReportManager - Type "0115584848" into "Mobile Number *".
+[INFO ] 2023-12-14 13:17:40.988 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-14 13:17:41.037 [main] ReportManager - Click "Create Account".
+[INFO ] 2023-12-14 13:17:43.270 [main] ReportManager - Get text "ACCOUNT CREATED!" from "By.xpath: //b[contains(text(),'Account Created!')]".
+[INFO ] 2023-12-14 13:17:43.271 [main] ReportManager - Expected "ACCOUNT CREATED!", and actual "ACCOUNT CREATED!"
+[INFO ] 2023-12-14 13:17:43.894 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'ACCOUNT CREATED!' for the 'text' attribute, element locator 'By.xpath: //b[contains(text(),'Account Created!')]'" and Actual "ACCOUNT CREATED!". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-14 13:17:43.899 [main] ReportManager - Successfully created attachment 'Screenshot - 1702552663760_register1_ValidateElementAttribute_passed'
+[INFO ] 2023-12-14 13:17:43.903 [main] ReportManager - Successfully created attachment 'ValidateElementAttribute - page snapshot'
+[INFO ] 2023-12-14 13:17:43.919 [main] ReportManager - Successfully created attachment 'Animated Gif - register1'
+[INFO ] 2023-12-14 13:17:43.922 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: openUrl'
+[INFO ] 2023-12-14 13:17:43.924 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: register1'
+[INFO ] 2023-12-14 13:17:43.925 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Finished Execution of Test Method: 'registerUserFeature.register1'                                       
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-14 13:17:43.989 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                        'registerUserFeature.afterMethod'                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-14 13:17:44.466 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-12-14 13:17:44.469 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-12-14 13:17:44.471 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-12-14 13:17:44.488 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-14 13:17:44.490 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-12-14 13:17:44.491 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-12-14 13:17:44.492 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

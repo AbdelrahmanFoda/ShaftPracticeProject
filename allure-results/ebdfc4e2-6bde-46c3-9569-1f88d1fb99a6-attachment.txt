@@ -1,0 +1,52 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                  Test Method: 'registerUserFeature.register1'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @14-12-2023 13:17:24.0101 PM
+[ReportManager] Click " Signup / Login". @14-12-2023 13:17:24.0156 PM
+[ReportManager] Type "Abdddgepaahman" into "Name". @14-12-2023 13:17:26.0238 PM
+[ReportManager] Type "Foda1702552643247@gmail.com" into "Email Address". @14-12-2023 13:17:26.0749 PM
+[ReportManager] Moved the mouse to the middle of the element. @14-12-2023 13:17:27.0269 PM
+[ReportManager] Click "Signup". @14-12-2023 13:17:27.0308 PM
+[ReportManager] Get text "ENTER ACCOUNT INFORMATION" from "By.xpath: //b[contains(text(),'Enter Account Information')]". @14-12-2023 13:17:28.0945 PM
+[ReportManager] Expected "ENTER ACCOUNT INFORMATION", and actual "ENTER ACCOUNT INFORMATION" @14-12-2023 13:17:28.0946 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'ENTER ACCOUNT INFORMATION' for the 'text' attribute, element locator 'By.xpath: //b[contains(text(),'Enter Account Information')]'" and Actual "ENTER ACCOUNT INFORMATION". Comparison Type "EQUALS". Validation Type "POSITIVE". @14-12-2023 13:17:29.0890 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //b[contains(text(),'Enter Account Information')]" text is equal to "ENTER ACCOUNT INFORMATION". @14-12-2023 13:17:29.0892 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1702552649629_register1_ValidateElementAttribute_passed' @14-12-2023 13:17:29.0934 PM
+[ReportManager] Successfully created attachment 'ValidateElementAttribute - page snapshot' @14-12-2023 13:17:29.0937 PM
+[ReportManager] Moved the mouse to the middle of the element. @14-12-2023 13:17:30.0510 PM
+[ReportManager] Click "Mr.". @14-12-2023 13:17:30.0552 PM
+[ReportManager] Type "55454454545" into "Password *". @14-12-2023 13:17:31.0181 PM
+[ReportManager] Setting "skipTestsWithLinkedIssues" property with "true". @14-12-2023 13:17:31.0422 PM
+[ReportManager] Select "19" from "By.id: days". @14-12-2023 13:17:32.0661 PM
+[ReportManager] Setting "skipTestsWithLinkedIssues" property with "true". @14-12-2023 13:17:32.0731 PM
+[ReportManager] Select "March" from "By.id: months". @14-12-2023 13:17:33.0527 PM
+[ReportManager] Setting "skipTestsWithLinkedIssues" property with "true". @14-12-2023 13:17:33.0609 PM
+[ReportManager] Select "2020" from "By.id: years". @14-12-2023 13:17:34.0294 PM
+[ReportManager] Moved the mouse to the middle of the element. @14-12-2023 13:17:34.0831 PM
+[ReportManager] Click "Sign up for our newsletter!". @14-12-2023 13:17:34.0879 PM
+[ReportManager] Moved the mouse to the middle of the element. @14-12-2023 13:17:35.0451 PM
+[ReportManager] Click "Receive special offers from our partners!". @14-12-2023 13:17:35.0500 PM
+[ReportManager] Type "Abdelrahman" into "First name *". @14-12-2023 13:17:35.0993 PM
+[ReportManager] Type "Foda" into "Last name *". @14-12-2023 13:17:36.0549 PM
+[ReportManager] Type "GizaSystems" into "Company". @14-12-2023 13:17:37.0012 PM
+[ReportManager] Type "Cairo" into "Address * (Street address, P.O. Box, Company name, etc.)". @14-12-2023 13:17:37.0553 PM
+[ReportManager] Type "Cairo" into "Address 2". @14-12-2023 13:17:38.0047 PM
+[ReportManager] Moved the mouse to the middle of the element. @14-12-2023 13:17:38.0599 PM
+[ReportManager] Click "Country *". @14-12-2023 13:17:38.0657 PM
+[ReportManager] Type "www" into "State *". @14-12-2023 13:17:39.0145 PM
+[ReportManager] Type "nasrcity" into "City * Zipcode *". @14-12-2023 13:17:39.0605 PM
+[ReportManager] Type "818" into "By.id: zipcode". @14-12-2023 13:17:40.0037 PM
+[ReportManager] Type "0115584848" into "Mobile Number *". @14-12-2023 13:17:40.0463 PM
+[ReportManager] Moved the mouse to the middle of the element. @14-12-2023 13:17:40.0987 PM
+[ReportManager] Click "Create Account". @14-12-2023 13:17:41.0037 PM
+[ReportManager] Get text "ACCOUNT CREATED!" from "By.xpath: //b[contains(text(),'Account Created!')]". @14-12-2023 13:17:43.0270 PM
+[ReportManager] Expected "ACCOUNT CREATED!", and actual "ACCOUNT CREATED!" @14-12-2023 13:17:43.0271 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'ACCOUNT CREATED!' for the 'text' attribute, element locator 'By.xpath: //b[contains(text(),'Account Created!')]'" and Actual "ACCOUNT CREATED!". Comparison Type "EQUALS". Validation Type "POSITIVE". @14-12-2023 13:17:43.0893 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //b[contains(text(),'Account Created!')]" text is equal to "ACCOUNT CREATED!". @14-12-2023 13:17:43.0896 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1702552663760_register1_ValidateElementAttribute_passed' @14-12-2023 13:17:43.0899 PM
+[ReportManager] Successfully created attachment 'ValidateElementAttribute - page snapshot' @14-12-2023 13:17:43.0903 PM
+[ReportManager] Successfully created attachment 'Animated Gif - register1' @14-12-2023 13:17:43.0919 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: openUrl' @14-12-2023 13:17:43.0922 PM
